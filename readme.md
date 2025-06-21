@@ -1,0 +1,1 @@
+# run command build: pyinstaller --onefile --noconsole --icon=icon.ico --add-data "images-FS.png;." app.py
