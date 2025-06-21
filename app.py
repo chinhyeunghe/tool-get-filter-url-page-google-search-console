@@ -305,8 +305,8 @@ class App(ctk.CTk):
                 ctr = row.get('ctr', 0)
                 position = row.get('position', 0)
                 data.append({
-                    'Keyword': keyword,
                     'URL': url,
+                    'Keyword': keyword,
                     'Clicks': clicks,
                     'Impressions': impressions,
                     'CTR': ctr,
